@@ -1,0 +1,21 @@
+Se da fisierul COR_Descrescator.txt continand date despre ocupatiile din Romania. Fisierul poate fi descarcat de la urmatoarea adresa
+
+staff.cs.upt.ro/~cstangaciu/Data/COR_Descrescator.txt
+
+sau din Resurse laborator 2
+
+Fisierul are urmatorul antet:
+
+Cod  Denumire
+
+Fiecarei ocupatii ii corespunde o linie din fisier, incepand cu a doua linie (dupa antet): cod_ocupatie nume_ocupatie. Intre cod si ocupatie este un tab, iar numele ocupatiei poate fi format din mai multe cuvinte. Presupunand ca numele nici unei ocupatii nu ocupa mai mult de 350 de caractere, se cere:
+
+·         Sa se citeasca datele din fisier intr-un tablou de forma <cod, ocupatie >
+
+·         Stiind ca aceste ocupatii sunt ordonate descrescator dupa cod, sa se aplice un algoritm de cautare optim, din cele studiate in cadrul acestui laborator si sa se afiseze denumirea ocupatiei pentru orice cod intodus de la tastatura sau mesajul "COD INEXISTENT", in cazul in care codul nu exista in fisier.
+
+·         Pornind de la principiul algoritmului de cautare liniara si sa se parcurga tabloul si sa se afiseze pe cate o linie separata, toate ocupatiile care incep cu un anumit cuvant dat de la tastatura
+
+Observație: In această secțiune se va urca un singur fișier, acesta va avea extensia .c
+
+De exemplu fișierul se poate numi main.c

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1634156131 source:d:\laboratoare programare\lab sda\lab 3\lab3prvpl\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

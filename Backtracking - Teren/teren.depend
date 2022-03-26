@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642454061 source:d:\laboratoare programare\lab sda\lab 4\teren\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

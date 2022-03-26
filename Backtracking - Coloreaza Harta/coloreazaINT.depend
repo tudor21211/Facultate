@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642439458 source:d:\laboratoare programare\lab sda\lab 4\coloreazaint\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1635402947 source:d:\laboratoare programare\lab sda\lab 4\problemalab4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+

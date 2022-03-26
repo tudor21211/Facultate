@@ -1,0 +1,93 @@
+Sa se implementeze un program pentru rezolvarea urmatoarei probleme:
+
+Se citesc din standard input (stdin) urmatoarele date, reprezentand nume de studenti, genul (M/F) si media lor anuala (numar intreg pe 8 biti):
+
+- un numar N
+
+- N intrari de forma <nota: numar intreg> <gen: un caracter> <nume-prenume: string>
+
+- un <nume-prenume: string> - pentru cerinta 1 (*)
+
+- un <nume-prenume: string> pentru cerinta 2 (**)
+
+1. Sa se sorteze studentii descrescator in functie de medie, folosind o sortare avansata, si sa se afiseze indexul primului nume de student citit (*).
+
+2. Sa se sorteze studentii dupa urmatoarea regula, folosind o sortare avansata, si sa se afiseze indexul celui de-al doilea nume de student citit (**).
+
+    - fetele vor fi inaintea baietilor (indiferent de nume sau medie)
+
+    - studentii cu acelasi gen for fi sortati crescator in functie de medie
+
+    - studentii cu aceeasi medie vor fi sortati alfabetic, in functie de nume-prenume
+
+    Atentie! A doua parte a cerintei necesita o singura sortare, iar functia de comparare trebuie sa tina cont de regulile descrise mai sus. Sortarea este explicata in exemplul de mai jos.
+
+
+
+Exemplu:
+
+In:
+
+    6
+
+    7 M Popescu Andrei
+
+    3 F Ardelean Nicoleta
+
+    2 F Zamfirescu Claudia
+
+    10 M Becali Gheorghe
+
+    7 M Decebal Traian
+
+    10 F Variu Stela
+
+    Becali Gheorghe
+
+    Variu Stela
+
+Out:
+
+    0
+
+    2
+
+
+
+Explicatie:
+
+Pentru prima parte a cerintei studentii au fost sortati descrescator pe baza mediei:
+
+    10 M Becali Gheorghe
+
+    10 F Variu Stela
+
+    7 M Popescu Andrei
+
+    7 M Decebal Traian
+
+    3 F Ardelean Nicoleta
+
+    2 F Zamfirescu Claudia
+
+Index Becali Gheorghe: 0 (e inainte de Variu Stela deoarece sortarea este stabila => se respecta ordinea din datele intiale)
+
+
+
+Pentru a doua parte a cerintei studentii au fost sortati astfel:
+
+    2 F Zamfirescu Claudia
+
+    3 F Ardelean Nicoleta
+
+    10 F Variu Stela
+
+    7 M Decebal Traian
+
+    7 M Popescu Andrei
+
+    10 M Becali Gheorghe
+
+
+
+Index Variu Stela: 2

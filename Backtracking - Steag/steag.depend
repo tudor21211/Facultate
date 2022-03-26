@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642424643 source:d:\laboratoare programare\lab sda\backtracking\steag\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

@@ -1,0 +1,93 @@
+Sa se implementeze un program pentru rezolvarea urmatoarei probleme:
+
+Se citesc din standard input (stdin) urmatoarele date, reprezentand nume de studenti, genul (M/F) si media lor anuala (numar intreg):
+
+- un numar N
+
+- N intrari de forma <nota: numar intreg> <gen: un caracter> <nume-prenume: string>
+
+- un <nume-prenume: string> - pentru cerinta 1 (*)
+
+- un <nume-prenume: string> pentru cerinta 2 (**)
+
+1. Sa se sorteze studentii crescator dupa nume-prenume (lexicografic), folosind o sortare simpla, si sa se afiseze indexul primului nume de student citit (*). Sortarea trebuie sa fie stabila.
+
+2. Sa se sorteze studentii dupa urmatoarea regula, folosind o sortare simpla, si sa se afiseze indexul celui de-al doilea nume de student citit (**).
+
+    - studentii cu media ma mica decat 5 vor fi plasati inaintea celorlalti studenti (indiferent de nume sau gen)
+
+    - studentii cu aceeasi categorie de medie (mai mica decat 5 sau mai mare sau egala cu 5) for fi sortati in functie de gen, studentii de gen feminin fiind plasati intotdeauna inaintea celor de gen masculin
+
+    - studentii de acelasi gen vor fi sortati alfabetic (crescator), in functie de nume-prenume
+
+    Atentie! A doua parte a cerintei necesita o singura sortare, iar functia de comparare trebuie sa tina cont de regulile descrise mai sus. Sortarea este explicata in exemplul de mai jos.
+
+
+
+Exemplu:
+
+In:
+
+    6
+
+    7 M Popescu Andrei
+
+    3 F Ardelean Nicoleta
+
+    2 F Zamfirescu Claudia
+
+    10 M Becali Gheorghe
+
+    7 M Decebal Traian
+
+    10 F Variu Stela
+
+    Becali Gheorghe
+
+    Variu Stela
+
+Out:
+
+    1
+
+    2
+
+
+
+Explicatie:
+
+Pentru prima parte a cerintei studentii au fost sortati crescator in functie de nume-prenume:
+
+3 F Ardelean Nicoleta
+
+10 M Becali Gheorghe
+
+7 M Decebal Traian
+
+7 M Popescu Andrei
+
+10 F Variu Stela
+
+2 F Zamfirescu Claudia
+
+Index Becali Gheorghe: 1
+
+
+
+Pentru a doua parte a cerintei studentii au fost sortati astfel:
+
+3 F Ardelean Nicoleta
+
+2 F Zamfirescu Claudia
+
+10 F Variu Stela
+
+10 M Becali Gheorghe
+
+7 M Decebal Traian
+
+7 M Popescu Andrei
+
+
+
+Index Variu Stela: 2

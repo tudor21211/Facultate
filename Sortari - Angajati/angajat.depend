@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642523548 source:d:\laboratoare programare\lab sda\lab 4\angajat\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

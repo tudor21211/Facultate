@@ -1,0 +1,7 @@
+6
+Marian 2000 0
+Andrei 500 1
+Tudor 3000 1
+Paul 8000 0
+Constatin 4000 0
+Andreea 6000 1

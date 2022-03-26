@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1642346455 source:d:\laboratoare programare\lab sda\liste\confazoom\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

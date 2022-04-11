@@ -15,7 +15,3 @@ Fiecarei ocupatii ii corespunde o linie din fisier, incepand cu a doua linie (du
 ·         Stiind ca aceste ocupatii sunt ordonate descrescator dupa cod, sa se aplice un algoritm de cautare optim, din cele studiate in cadrul acestui laborator si sa se afiseze denumirea ocupatiei pentru orice cod intodus de la tastatura sau mesajul "COD INEXISTENT", in cazul in care codul nu exista in fisier.
 
 ·         Pornind de la principiul algoritmului de cautare liniara si sa se parcurga tabloul si sa se afiseze pe cate o linie separata, toate ocupatiile care incep cu un anumit cuvant dat de la tastatura
-
-Observație: In această secțiune se va urca un singur fișier, acesta va avea extensia .c
-
-De exemplu fișierul se poate numi main.c
